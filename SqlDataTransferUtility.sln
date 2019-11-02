@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlDataTransfer.CLI", "src\SqlDataTransfer.CLI\SqlDataTransfer.CLI.csproj", "{52E87FFA-0437-4DEB-A5D2-A56ACEDFD2C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlDataTransfer.Core", "src\SqlDataTransfer.Core\SqlDataTransfer.Core.csproj", "{CC8F566A-D9D8-4700-B319-7EF769FF1DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataTransfer.SqlServer", "src\SqlDataTransfer.SqlServer\SqlDataTransfer.SqlServer.csproj", "{A3FBCCE9-244F-4F6B-A30A-C27E42161869}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52E87FFA-0437-4DEB-A5D2-A56ACEDFD2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E87FFA-0437-4DEB-A5D2-A56ACEDFD2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E87FFA-0437-4DEB-A5D2-A56ACEDFD2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E87FFA-0437-4DEB-A5D2-A56ACEDFD2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8F566A-D9D8-4700-B319-7EF769FF1DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8F566A-D9D8-4700-B319-7EF769FF1DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8F566A-D9D8-4700-B319-7EF769FF1DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8F566A-D9D8-4700-B319-7EF769FF1DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FBCCE9-244F-4F6B-A30A-C27E42161869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FBCCE9-244F-4F6B-A30A-C27E42161869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FBCCE9-244F-4F6B-A30A-C27E42161869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FBCCE9-244F-4F6B-A30A-C27E42161869}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8565107B-E158-46CA-AE2C-B837FB2CE421}
+	EndGlobalSection
+EndGlobal
