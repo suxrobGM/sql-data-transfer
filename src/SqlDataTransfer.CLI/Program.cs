@@ -26,7 +26,7 @@ namespace SqlDataTransfer.CLI
 
         private static void Run()
         {
-            Console.Write("DB Connection String: ");
+            Console.Write("Enter DB Connection String: ");
             var connectionString = Console.ReadLine();
             var sqlJsonConverter = new SqlServerJsonConverter(connectionString);
 
@@ -38,7 +38,7 @@ namespace SqlDataTransfer.CLI
             foreach (var tableName in tableNames)
             {
                 count++;
-                Console.WriteLine($"{count}. {tableName}");
+                Console.WriteLine($"\t{count}. {tableName}");
                 tableNamesDictionary.Add(count, tableName);
             }
 
@@ -47,9 +47,9 @@ namespace SqlDataTransfer.CLI
             Console.WriteLine($"Choosed table: {tableNamesDictionary[choosedTable]}");
 
             Console.WriteLine($"Please choose operation: ");
-            Console.WriteLine("1. Get sql table scheme in json format");
-            Console.WriteLine("2. Get sql table records in json format");
-            Console.WriteLine("3. Get sql table scheme and records (combined) in json format");
+            Console.WriteLine("\t1. Get sql table scheme in json format");
+            Console.WriteLine("\t2. Get sql table records in json format");
+            Console.WriteLine("\t3. Get sql table scheme and records (combined) in json format");
             int choosedOperation = int.Parse(Console.ReadLine());
 
             Console.Write("Please enter output json file name: ");
